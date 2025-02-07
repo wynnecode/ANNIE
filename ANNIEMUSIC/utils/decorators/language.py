@@ -59,6 +59,6 @@ def LanguageStart(mystic):
             language = get_string(language)
         except:
             language = get_string("en")
-        return await mystic(_, message, language)
+        return await mystic(_, message) if mystic.__code__.co_argcount == 2 else await mystic(_, message, language)
 
     return wrapper
