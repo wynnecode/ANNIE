@@ -27,7 +27,7 @@ API_HASH = getenv("API_HASH")
 ## Get it from @Botfather in Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-BOT_USERNAME = getenv("BOT_USERNAME", "musicXanime_bot")
+BOT_USERNAME = getenv("BOT_USERNAME", "NyxianMusicRobot")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
@@ -77,7 +77,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "7297381612").split())
+    map(int, getenv("OWNER_ID", "7494727691").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -90,9 +90,9 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Moonshining1/ANNIE-MUSIC",
+    "https://github.com/wynnecode/ANNIE",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 # GIT TOKEN ( if your edited repo is private)
 GIT_TOKEN = getenv(
@@ -111,14 +111,14 @@ AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/Kittyxupdates"
+    "SUPPORT_CHANNEL", "https://t.me/NyxianNetwork"
 )  # Example:- https://t.me/VIP_CREATORS
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/TG_FRIENDSS"
+    "SUPPORT_GROUP", "https://t.me/NyxianSanctuary"
 )  # Example:- https://t.me/TG_FRIENDSS
 
 SUPPORT_CHAT = getenv(
-    "SUPPORT_GROUP", "https://t.me/Grandxmasti"
+    "SUPPORT_GROUP", "https://t.me/NyxianSanctuary"
 )  # Example:- https://t.me/Grandxmasti
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
@@ -141,7 +141,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 
 # Your Github Repo.. Will be shown on /start Command
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/Moonshining1/ANNIE-MUSIC")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/NyxianNetwork")
 
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
